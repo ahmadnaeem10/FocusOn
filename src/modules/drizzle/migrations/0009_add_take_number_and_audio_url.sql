@@ -1,0 +1,4 @@
+ALTER TABLE records
+ADD COLUMN take_number INTEGER NOT NULL DEFAULT 1,
+ADD COLUMN audio_url TEXT NOT NULL;
+DROP COLUMN file_name;

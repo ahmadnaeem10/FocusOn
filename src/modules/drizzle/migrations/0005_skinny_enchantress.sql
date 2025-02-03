@@ -1,0 +1,1 @@
+ALTER TABLE "issues" RENAME COLUMN "photo" TO "image";
